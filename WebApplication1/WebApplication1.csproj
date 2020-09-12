@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F6CA455F-F10B-4DF0-918E-B0D637B76AB9}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication1</RootNamespace>
+    <AssemblyName>WebApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.jpg" />
+    <Content Include="2.jpg" />
+    <Content Include="3.jpg" />
+    <Content Include="4.jpg" />
+    <Content Include="About Us.aspx" />
+    <Content Include="Accord.aspx" />
+    <Content Include="Contact Us.aspx" />
+    <Content Include="Image1\10.jpg" />
+    <Content Include="Image1\11.jpg" />
+    <Content Include="Image1\4.jpg" />
+    <Content Include="Image1\6.jpg" />
+    <Content Include="Image1\7.jpg" />
+    <Content Include="Image1\8.jpg" />
+    <Content Include="Image1\9.jpg" />
+    <Content Include="images\parts japan.jpg" />
+    <Content Include="images\10.jpg" />
+    <Content Include="images\11.jpeg" />
+    <Content Include="images\1\1 a.jpg" />
+    <Content Include="images\1\10.jpg" />
+    <Content Include="images\1\11.jpg" />
+    <Content Include="images\1\12.jpg" />
+    <Content Include="images\1\13.jpg" />
+    <Content Include="images\1\14.png" />
+    <Content Include="images\1\2.jpg" />
+    <Content Include="images\1\3.jpg" />
+    <Content Include="images\1\4.jpg" />
+    <Content Include="images\1\5.jpg" />
+    <Content Include="images\1\6.jpg" />
+    <Content Include="images\1\7.jpg" />
+    <Content Include="images\1\8.jpg" />
+    <Content Include="images\1\9.jpg" />
+    <Content Include="images\707752-instagram-512 1.png" />
+    <Content Include="images\80-google-plus-512.png" />
+    <Content Include="images\border.png" />
+    <Content Include="images\facebook-icon-black-and-white_100640.png" />
+    <Content Include="images\map.png" />
+    <Content Include="images\newsletter.jpg" />
+    <Content Include="images\screencapture-hondacarindia-Honda-Services-ImportantInformation-PeriodicMaintenance-2018-04-12-17_04_38.png" />
+    <Content Include="images\Twitter-icon-6 1.png" />
+    <Content Include="images\Untitled.png" />
+    <Content Include="images\youtube_4096_black 1.png" />
+    <Content Include="Maintainance.aspx" />
+    <Content Include="Parts.aspx" />
+    <Content Include="PARTS\1-84.jpg" />
+    <Content Include="PARTS\1.jpg" />
+    <Content Include="PARTS\amaze.png" />
+    <Content Include="PARTS\brio parts.png" />
+    <Content Include="PARTS\brv parts.png" />
+    <Content Include="PARTS\city.png" />
+    <Content Include="PARTS\front\accord.jpg" />
+    <Content Include="PARTS\front\amaze.jpg" />
+    <Content Include="PARTS\front\Brio.jpg" />
+    <Content Include="PARTS\front\City.jpg" />
+    <Content Include="PARTS\front\Honda-Amaze-Left-Front-Three-Quarter-99803.jpg" />
+    <Content Include="PARTS\front\Honda-Jazz.jpg" />
+    <Content Include="PARTS\jazz.png" />
+    <Content Include="PARTS\parts.jpg" />
+    <Content Include="PARTS\speci\accord.jpg" />
+    <Content Include="PARTS\speci\Amaze.jpg" />
+    <Content Include="PARTS\speci\Brio.jpg" />
+    <Content Include="PARTS\speci\city 2.jpg" />
+    <Content Include="PARTS\speci\Jazz.jpg" />
+    <Content Include="PARTS\zapchasti.jpg" />
+    <Content Include="stu1.accdb" />
+    <Content Include="StyleSheet1.css" />
+    <Content Include="Image1\1.jpg" />
+    <Content Include="Image1\2.jpg" />
+    <Content Include="Image1\3.jpg" />
+    <Content Include="Image1\5.jpg" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="WebForm2.aspx" />
+    <Content Include="WebForm3.aspx" />
+    <Content Include="WebForm4.aspx" />
+    <Content Include="WebForm5.aspx" />
+    <Content Include="WebForm6.aspx" />
+    <Content Include="WebForm7.aspx" />
+    <Content Include="WebForm8.aspx" />
+    <Content Include="yellow beauty.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About Us.aspx.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About Us.aspx.designer.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Accord.aspx.cs">
+      <DependentUpon>Accord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accord.aspx.designer.cs">
+      <DependentUpon>Accord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact Us.aspx.cs">
+      <DependentUpon>Contact Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact Us.aspx.designer.cs">
+      <DependentUpon>Contact Us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Maintainance.aspx.cs">
+      <DependentUpon>Maintainance.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Maintainance.aspx.designer.cs">
+      <DependentUpon>Maintainance.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Parts.aspx.cs">
+      <DependentUpon>Parts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Parts.aspx.designer.cs">
+      <DependentUpon>Parts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm3.aspx.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm3.aspx.designer.cs">
+      <DependentUpon>WebForm3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm4.aspx.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm4.aspx.designer.cs">
+      <DependentUpon>WebForm4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm5.aspx.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm5.aspx.designer.cs">
+      <DependentUpon>WebForm5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm6.aspx.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm6.aspx.designer.cs">
+      <DependentUpon>WebForm6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm7.aspx.cs">
+      <DependentUpon>WebForm7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm7.aspx.designer.cs">
+      <DependentUpon>WebForm7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm8.aspx.cs">
+      <DependentUpon>WebForm8.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm8.aspx.designer.cs">
+      <DependentUpon>WebForm8.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>24277</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

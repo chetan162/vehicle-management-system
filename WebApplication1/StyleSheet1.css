@@ -1,0 +1,280 @@
+﻿.as
+{
+   position :absolute;
+    top: 220px;
+    left: 554px;
+    width: 709px;
+    height: 176px;
+}
+.nex
+{
+     position :absolute;
+    top: 3px;
+    left: 1748px;
+}
+.ab
+{
+  position :absolute;
+    top: 20px;
+    left: 29px;
+}
+.as1
+{
+   position :absolute;
+    top: 112px;
+    left: 680px;
+    width: 452px;
+    height: 116px;
+}
+#a1
+{
+    position:absolute;
+    top: 5px;
+    left: 10px;
+    height: 38px;
+    width: 241px;
+    margin-left: 0px;
+}
+    #a2
+{
+    position:absolute;
+    top: 0px;
+    }
+    #a3
+{
+    position:absolute;
+    top: 0px;
+    left: 1625px;
+    width: 190px;
+    height: 30px;  
+}
+.b
+{
+     color:white;
+     font-family :Calibri Light;
+     background-color :transparent ;
+     font-size :50px;
+    
+    }
+.b:hover
+{
+    color:Gray ;
+    background-color :White;
+    
+    }
+    .lo
+    {
+        color:white ;
+    background-color :black;
+    font-weight :bold ;
+        
+        }
+    .lo:hover
+    {
+       
+    color:Gray ;
+    background-color :White;
+        }
+    
+     .lo1
+    {
+        color:white ;
+    background-color :gray;
+    font-weight :bold ;
+        
+        }
+    .lo1:hover
+    {
+       
+    color:Gray ;
+    background-color :White;
+        }
+.b1
+{
+      font-family :Arial;
+      font-size :30px;
+      background-color :#CCCCCC;
+      box-shadow: rgb(136, 136, 136) 0px 0px 15px 1px
+    }
+
+.b1:hover
+{
+    background-color :White;
+    
+    }
+    .b1b
+{ 
+      font-family :Arial;
+      font-size :30px;
+      background-color : #FFFFFF;
+        }
+
+
+.b1b:hover
+{
+    background-color : Gray ;
+    color :White;
+    
+    }
+.men1
+{
+color:#313943; 
+  font-size: 25px; 
+  font-family: BebasNeue Regular;
+    border-bottom:2px solid #313943;
+    background-color : transparent;
+    margin : 35px 10px 5px 10px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+
+    .men1:hover{  background-color:black; 
+                  color:white;
+                  border-bottom:2px solid #ffffff;
+                  
+                  }
+                  .men2:hover{ background-color:black; 
+                  color:white;
+                  }
+                  .men3:hover{background-color:black; 
+                  color:white;
+                  }
+                  .men4:hover{ background-color:black; 
+                  color:white;
+                  }
+                  .men5:hover{background-color:black; 
+                  color:white;
+                  }
+                  .men2
+        {
+          color:#313943; 
+  font-size: 25px; 
+  font-family: BebasNeue Regular;
+    border-bottom:2px solid #313943;
+    background-color : transparent;
+    margin : 35px 10px 5px 10px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+  
+.men3
+        {
+          color:#313943; 
+  font-size: 25px; 
+  font-family: BebasNeue Regular;
+    border-bottom:2px solid #313943;
+    background-color : transparent;
+    margin : 35px 10px 5px 10px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+            
+          .men4
+            {
+ color:#313943; 
+  font-size: 25px; 
+  font-family: BebasNeue Regular;
+    border-bottom:2px solid #313943;
+    background-color : transparent;
+    margin : 35px 10px 5px 10px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}  
+    .men5
+    {
+color:#313943; 
+  font-size: 25px; 
+  font-family: BebasNeue Regular;
+    border-bottom:2px solid #313943;
+    background-color : transparent;
+    margin : 3px 10px 5px 10px;
+    border-left-style: none;
+    border-left-color: inherit;
+    border-left-width: medium;
+    border-right-style: none;
+    border-right-color: inherit;
+    border-right-width: medium;
+    border-top-style: none;
+    border-top-color: inherit;
+    border-top-width: medium;
+}
+             
+.soc1
+{
+ background-image: url('images/facebook-icon-black-and-white_100640.png');
+ width: 34px;
+  height: 34px;  
+    } 
+    .soc1:hover
+    { background-color :Silver  ;
+        }
+          .soc2:hover
+    { background-color :Silver  ;
+        }     .soc3:hover
+    { background-color :Silver  ;
+        }     .soc4:hover
+    { background-color :Silver  ;
+        }     .soc5:hover
+    { background-color :Silver  ;
+        }                
+.soc2
+{
+ background-image: url('images/80-google-plus-512.png'); 
+ width: 34px;
+  height: 34px;  
+    }    
+    .soc3
+{
+ background-image: url('images/707752-instagram-512%201.png'); 
+ width: 34px;
+  height: 34px;  
+    } 
+    .soc4
+{
+ background-image: url('images/youtube_4096_black%201.png');
+ width: 34px;
+  height: 34px;  
+    } 
+    .soc5
+{
+ background-image: url('images/Twitter-icon-6%201.png'); 
+ width: 34px;
+  height: 34px;  
+    } 
+    .wet
+    {
+        font-family: 'MV Boli';
+         font-size: 60px; font-weight: bold;
+          color: gray;
+        }
+        
+        
+       
